@@ -1,6 +1,6 @@
 # lint-diff
 
-[![Build Status](https://travis-ci.org/grvcoelho/lint-diff.svg?branch=master)](https://travis-ci.org/grvcoelho/lint-diff)
+Forked from https://github.com/grvcoelho/lint-diff
 
 :nail_care: Run eslint only in the changed parts of the code
 
