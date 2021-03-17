@@ -361,7 +361,7 @@ var linter = new eslint__WEBPACK_IMPORTED_MODULE_25__["CLIEngine"]();
 var formatter = linter.getFormatter();
 
 var getChangedFiles = ramda_src_pipeP__WEBPACK_IMPORTED_MODULE_21___default()(function (commitRange) {
-  return execa__WEBPACK_IMPORTED_MODULE_23___default()('git', ['diff', commitRange, '--name-only', '--diff-filter=ACM']);
+  return execa__WEBPACK_IMPORTED_MODULE_23___default()('git', ['diff', commitRange, '--name-only', '--diff-filter=ACMR']);
 }, ramda_src_prop__WEBPACK_IMPORTED_MODULE_20___default()('stdout'), ramda_src_split__WEBPACK_IMPORTED_MODULE_19___default()('\n'), ramda_src_filter__WEBPACK_IMPORTED_MODULE_18___default()(ramda_src_endsWith__WEBPACK_IMPORTED_MODULE_17___default()('.js')), ramda_src_map__WEBPACK_IMPORTED_MODULE_16___default()(path__WEBPACK_IMPORTED_MODULE_24___default.a.resolve));
 
 var getDiff = ramda_src_curry__WEBPACK_IMPORTED_MODULE_15___default()(function (commitRange, filename) {
